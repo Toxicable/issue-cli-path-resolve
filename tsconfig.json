@@ -12,12 +12,6 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-
-    "allowJs": true,
-    "paths": {
-      "typeorm": ["node_modules/typeorm/typeorm-model-shim"]
-    },
-    
     "lib": [
       "es2017",
       "dom"
