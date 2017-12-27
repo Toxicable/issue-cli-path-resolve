@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": []
+  },
+  "paths": {
+      "typeorm": ["../node_modules/typeorm/typeorm-model-shim"]
+    },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
